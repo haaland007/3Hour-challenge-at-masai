@@ -1,0 +1,25 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    /* padding: 30px; */
+    background-color: olive;
+    color: antiquewhite;
+    align-items: center;
+  }
+  .row{
+    /* height: 300px; */
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #menu,#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px
+  }
+  img{
+    height: 200px;
+    width: 100%;
+  }
